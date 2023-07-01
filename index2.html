@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Pac-man</title>
+  </head>
+  <body>
+
+    <img
+      id="PacMan"
+      src="images/PacMan1.png"
+      width="200"
+      onclick="Run()"
+      style="position: absolute"
+    />
+    
+    <button 
+        style="position:absolute;left:180px;top:300px;background-color:rgb(247, 114, 114)"
+        type="button" 
+        id="btn1" 
+        onclick="CheckisRunning()"
+    >
+        STOP
+  </button>
+  <button 
+      style="position:absolute;left:100px;top:300px;background-color:rgb(141, 231, 141)"
+      type="button" 
+      id="btn2" 
+      onclick="GetStarted()"
+  >
+      START
+  </button>
+
+    <!-- DO NOT CHANGE THIS LINE OF CODE -->
+    <script src="./pacmanMoveandBoundsv1.js"></script>
+
+  </body>
+</html>
